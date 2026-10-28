@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b12">
+  <meta name="description" content="Durvesh Patil — System Engineer, AI Automation Developer, PLM Professional and Video Editor.">
+  <title>Durvesh Patil | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Durvesh Patil home"><span class="brand-mark">D</span><span>durvesh<span class="accent">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a><a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#creative">Video Editing</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact">Let's talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO COLLABORATION</div>
+        <p class="hero-kicker">Hello, I'm</p>
+        <h1>Durvesh<br><span class="gradient-text">Patil.</span></h1>
+        <div class="role-line">I work at the intersection of <span id="typedRole">AI automation</span><span class="cursor">|</span></div>
+        <p class="hero-description">System Engineer building useful enterprise solutions, intelligent workflows, and digital experiences — with a creative eye for video editing.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="mailto:patildurvesh2002@gmail.com">Email me <span>↗</span></a>
+        </div>
+        <div class="social-row" aria-label="Social links">
+          <a class="social-link" id="linkedinLink" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">in <span>LinkedIn</span> ↗</a>
+          <a class="social-link" id="instagramLink" href="https://www.instagram.com/" target="_blank" rel="noreferrer">◎ <span>Instagram</span> ↗</a>
+          <a class="social-link" href="https://wa.me/919850088798" target="_blank" rel="noreferrer">◉ <span>WhatsApp</span> ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-grid"></div>
+        <div class="portrait-frame">
+          <div class="portrait-glow"></div>
+          <!-- Replace assets/durvesh-photo.jpg with your own image. -->
+          <img id="profilePhoto" src="assets/durvesh-photo.jpg" alt="Portrait of Durvesh Patil" onerror="this.style.display='none';document.getElementById('photoFallback').style.display='grid'">
+          <div id="photoFallback" class="photo-fallback"><span>DP</span><small>YOUR PHOTO HERE</small></div>
+          <div class="portrait-label"><span class="mini-dot"></span> SYSTEM ENGINEER <span class="label-divider">/</span> VIDEO EDITOR</div>
+        </div>
+        <div class="float-card float-card-top"><span class="float-icon">✳</span><div><strong>AI + Automation</strong><small>Building smarter workflows</small></div></div>
+        <div class="float-card float-card-bottom"><span class="float-icon purple">◈</span><div><strong>Creative mindset</strong><small>Technology meets storytelling</small></div></div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+      </div>
+      <a href="#about" class="scroll-cue"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT ME</p><h2>Engineering ideas<br>into <span class="gradient-text">real impact.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="lead">I'm a results-driven System Engineer with experience in enterprise application development, AI-driven automation, and Product Lifecycle Management (PLM).</p>
+          <p>At Tata Consultancy Services, I work across AI chatbot workflows, enterprise applications, manufacturing documentation, PLM data, and process automation. I enjoy making complex processes clearer, more reliable, and more efficient.</p>
+          <p>Alongside engineering, I bring a creative perspective through video editing — combining pacing, visuals, and storytelling to make content engaging.</p>
+          <div class="about-actions"><a class="text-link" href="#experience">View experience <span>↗</span></a><a class="text-link" href="#contact">Get in touch <span>↗</span></a></div>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card"><span class="stat-number">500<span>+</span></span><p>Regulated documents managed and validated</p></article>
+          <article class="stat-card"><span class="stat-number">AI<span>.</span></span><p>Chatbots, agents & workflow automation</p></article>
+          <article class="stat-card"><span class="stat-number">PLM</span><p>Product lifecycle & engineering data</p></article>
+          <article class="stat-card"><span class="stat-number">Edit<span>.</span></span><p>Video editing & visual storytelling</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading heading-row"><div><p class="eyebrow">02 / TOOLKIT</p><h2>Skills that <span class="gradient-text">move work forward.</span></h2></div><p class="section-note">A mix of engineering, enterprise systems, and creative production.</p></div>
+      <div class="filter-row" id="skillFilters">
+        <button class="filter-chip active" data-filter="all">All skills</button><button class="filter-chip" data-filter="development">Development</button><button class="filter-chip" data-filter="ai">AI & Cloud</button><button class="filter-chip" data-filter="plm">PLM & Quality</button><button class="filter-chip" data-filter="creative">Video editing</button>
+      </div>
+      <div class="skills-grid" id="skillsGrid">
+        <article class="skill-card" data-category="development"><span class="skill-icon">&lt;/&gt;</span><h3>Programming & Web</h3><p>Java · Python · SQL · HTML · CSS · JavaScript</p><div class="skill-tags"><span>React</span><span>Node.js</span><span>PHP</span><span>Bootstrap</span></div></article>
+        <article class="skill-card" data-category="ai"><span class="skill-icon">✳</span><h3>AI & Automation</h3><p>AI chatbots, AI agents, workflow design, business process automation.</p><div class="skill-tags"><span>AI Agents</span><span>GenAI</span><span>Automation</span></div></article>
+        <article class="skill-card" data-category="plm"><span class="skill-icon">◈</span><h3>PLM & Engineering</h3><p>Enovia, Agile PLM, SolidWorks CAD, EBOM/MBOM and engineering changes.</p><div class="skill-tags"><span>Enovia</span><span>Agile PLM</span><span>SolidWorks</span></div></article>
+        <article class="skill-card" data-category="plm"><span class="skill-icon">▤</span><h3>Quality & Documentation</h3><p>Document control, change management, QMS, regulatory documentation.</p><div class="skill-tags"><span>ISO 13485</span><span>QSR / DMR</span><span>SOP / QP</span></div></article>
+        <article class="skill-card" data-category="ai"><span class="skill-icon">☁</span><h3>Database, Cloud & Security</h3><p>Oracle Database, SQL databases, cloud fundamentals, security reviews.</p><div class="skill-tags"><span>Oracle</span><span>Azure AZ-900 learning</span><span>Networking</span></div></article>
+        <article class="skill-card" data-category="creative"><span class="skill-icon">▶</span><h3>Video Editing</h3><p>Creative editing, visual pacing, transitions, audio syncing, and story-led content.</p><div class="skill-tags"><span>Video Editing</span><span>Reels / Shorts</span><span>Storytelling</span></div></article>
+      </div>
+      <p class="small-note">Video-editing techniques are presented as portfolio categories; add the editing software you use and examples of your work before publishing.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="experience">
+      <div class="section-heading"><p class="eyebrow">03 / EXPERIENCE</p><h2>Work built on <span class="gradient-text">real-world impact.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-rail"><span></span></div>
+        <article class="timeline-item">
+          <div class="timeline-date">JUL 2023 — PRESENT</div><div class="timeline-content">
+            <div class="timeline-title"><div><h3>System Engineer</h3><p class="company">Tata Consultancy Services · Pune, Maharashtra</p></div><span class="work-mark">TCS</span></div>
+            <ul><li>Designed and enhanced internal AI chatbot solutions with AI-agent workflows and intuitive UI components.</li><li>Built and supported enterprise applications using Java, Python, SQL, HTML, CSS, JavaScript, and Oracle Database.</li><li>Administered Enovia and Agile PLM systems, managing product lifecycle data, EBOM/MBOM structures, engineering changes, and manufacturing documentation.</li><li>Managed and validated 500+ regulated manufacturing and quality documents, supporting traceability and compliance requirements.</li><li>Supported security compliance reviews, vulnerability assessments, SolidWorks CAD updates, and process automation.</li></ul>
+            <div class="skill-tags"><span>Enterprise Apps</span><span>AI Workflows</span><span>PLM</span><span>Process Automation</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading heading-row"><div><p class="eyebrow">04 / SELECTED WORK</p><h2>Projects with a <span class="gradient-text">purpose.</span></h2></div><p class="section-note">A selection based on the projects and experience listed in my resume.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured"><div class="project-topline"><span class="project-index">PROJECT / 01</span><span class="project-type">WEB APPLICATION</span></div><div class="project-art dairy-art"><span class="art-sun"></span><div class="farm-line"></div><div class="farm-house">⌂</div><div class="art-label">FARM<br>MANAGEMENT</div></div><div class="project-info"><h3>Dairy Farm Management System</h3><p>A web-based system designed to streamline dairy operations with milk production tracking, inventory management, customer billing, and sales reporting.</p><div class="skill-tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap</span></div><details><summary>Project details</summary><p>Included database schema design and project documentation: SRS, database design, system architecture, testing reports, and user manuals.</p></details></div></article>
+        <article class="project-card"><div class="project-topline"><span class="project-index">WORK / 02</span><span class="project-type">AI & AUTOMATION</span></div><div class="project-art ai-art"><div class="node node-one">AI</div><div class="node node-two">↔</div><div class="node node-three">UI</div><div class="node node-four">⚙</div><div class="node-lines"></div></div><div class="project-info"><h3>AI Chatbot & Agent Workflows</h3><p>Internal chatbot enhancements and workflow automation designed to streamline enterprise business processes.</p><div class="skill-tags"><span>AI Agents</span><span>UI Components</span><span>Automation</span></div><p class="small-note">Professional experience; not presented as a public independent project.</p></div></article>
+        <article class="project-card"><div class="project-topline"><span class="project-index">CREATIVE / 03</span><span class="project-type">VIDEO EDITING</span></div><div class="project-art video-art"><div class="video-play">▶</div><div class="timeline-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="art-label">CUT · CREATE · TELL</span></div><div class="project-info"><h3>Video Editing Showcase</h3><p>A space for short-form edits, reels, cinematic sequences, and other creative work.</p><div class="skill-tags"><span>Editing</span><span>Transitions</span><span>Storytelling</span></div><a class="text-link" href="#creative">Explore creative work <span>↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="creative">
+      <div class="section-heading"><p class="eyebrow">05 / CREATIVE SIDE</p><h2>Frames, rhythm & <span class="gradient-text">storytelling.</span></h2><p class="section-note wide-note">Video editing is part of my creative skill set. Add links to your actual edits below to turn this section into a working showcase.</p></div>
+      <div class="video-grid">
+        <a class="video-placeholder" href="https://www.instagram.com/" target="_blank" rel="noreferrer"><span class="video-thumb thumb-one"><b>01</b><span class="play-button">▶</span></span><span class="video-caption"><strong>Reels & Short-form</strong><small>Insert your Instagram reel link ↗</small></span></a>
+        <a class="video-placeholder" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span class="video-thumb thumb-two"><b>02</b><span class="play-button">▶</span></span><span class="video-caption"><strong>Cinematic / Story Edit</strong><small>Insert your YouTube video link ↗</small></span></a>
+        <a class="video-placeholder" href="mailto:patildurvesh2002@gmail.com?subject=Video%20Editing%20Portfolio"><span class="video-thumb thumb-three"><b>03</b><span class="play-button">▶</span></span><span class="video-caption"><strong>Client & Personal Work</strong><small>Ask me about my edits ↗</small></span></a>
+      </div>
+      <p class="small-note">These are starter links, not embedded videos. Replace them with your own public video URLs when ready.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="education">
+      <div class="section-heading"><p class="eyebrow">06 / EDUCATION & CERTIFICATIONS</p><h2>Always <span class="gradient-text">learning.</span></h2></div>
+      <div class="credentials-grid">
+        <article class="credential-card"><span class="credential-symbol">✦</span><div><p class="credential-label">2020 — 2023</p><h3>Bachelor in Computer Application (BCA)</h3><p>R C Patel Institute of Management Research and Development, Shirpur</p><span class="grade">8.5 CGPA</span></div></article>
+        <article class="credential-card"><span class="credential-symbol">✧</span><div><p class="credential-label">CERTIFICATION</p><h3>TCS iON GenAI Applications</h3><p>AI and Data Analytics</p><span class="grade">Score: 96</span></div></article>
+        <article class="credential-card"><span class="credential-symbol">⌘</span><div><p class="credential-label">CERTIFICATION</p><h3>Angular Java Full Stack</h3><p>Web Technologies</p><span class="grade">Score: 80</span></div></article>
+        <article class="credential-card"><span class="credential-symbol">☁</span><div><p class="credential-label">CERTIFICATION</p><h3>Wings T15 Curriculum</h3><p>Cloud Computing</p><span class="grade">Score: 80</span></div></article>
+        <article class="credential-card"><span class="credential-symbol">◈</span><div><p class="credential-label">LEARNING PATH</p><h3>Microsoft Azure AZ-900</h3><p>Microsoft Azure fundamentals learning path</p></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner"><div><p class="eyebrow">07 / GET IN TOUCH</p><h2>Have an idea?<br><span class="gradient-text">Let's build it.</span></h2><p class="contact-description">For engineering opportunities, collaborations, or video-editing projects — feel free to reach out.</p></div>
+        <div class="contact-card"><a class="contact-item" href="mailto:patildurvesh2002@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL</small><strong>patildurvesh2002@gmail.com</strong></span><b>↗</b></a><a class="contact-item" href="https://wa.me/919850088798" target="_blank" rel="noreferrer"><span class="contact-icon">◉</span><span><small>WHATSAPP</small><strong>+91 98500 88798</strong></span><b>↗</b></a><a class="contact-item" id="contactLinkedin" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span class="contact-icon">in</span><span><small>LINKEDIN</small><strong>Connect professionally</strong></span><b>↗</b></a><a class="contact-item" id="contactInstagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer"><span class="contact-icon">◎</span><span><small>INSTAGRAM</small><strong>Creative work & updates</strong></span><b>↗</b></a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">D</span><span>durvesh<span class="accent">.</span></span></a><p>Designed with curiosity. Built with purpose.</p><span>© <span id="year"></span> Durvesh Patil</span><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
